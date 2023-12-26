@@ -25,4 +25,4 @@ Once you have the project open in Processing, simply click the "Run" button (a p
 
 -->
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see `LICENSE.txt` for details.
