@@ -26,7 +26,7 @@ int orbit_dist[] = {randInt(225, 250), randInt(275, 325), randInt(350, 375), ran
 float radii[] = {5.0, 7.0, 12.0, 8.0};
 
 void setup() {
-  size(1280, 1280, P3D);
+  size(1280, 720, P3D);
   
   noStroke();
   colorMode(RGB, 1);
@@ -56,12 +56,18 @@ void setLight(){
   // Set the specular color of lights that follow
   lightSpecular(1, 1, 1);
   directionalLight(0.8, 0.8, 0.8, 0, 0, -1);
+  float s = mouseX / float(width);
+  specular(s, s, s);
 }
 
 void draw() {
   
   background(0); // Black
-  setLight();
+  // Set the specular color of lights that follow
+  lightSpecular(1, 1, 1);
+  directionalLight(0.8, 0.8, 0.8, 0, 0, -1);
+  float s = mouseX / float(width);
+  specular(s, s, s);
   
   // Sun
   pushMatrix(); // Isolate translations
