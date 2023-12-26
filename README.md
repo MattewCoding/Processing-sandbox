@@ -1,5 +1,5 @@
 # Processing Sandbox
-This project is a modified program of one of the example programs given on Processing's website. I'm new to Processing, so this is just me trying to figure out the different commands and controls.
+This project is a modified program of some of the example programs given on Processing's website (these two: [Reflection](https://processing.org/examples/reflection.html) and [Perspective](https://processing.org/examples/perspective.html)). I'm new to Processing, so this is just me playing around with the keywords and whatnot.
 
 ## Getting Started
 
