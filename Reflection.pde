@@ -1,9 +1,13 @@
 /**
- * Reflection 
- * by Simon Greenwold. 
+ * Solar System Reflection 
+ * by Simon Greenwold. Modified by Mattew Yang. 
  * 
  * Vary the specular reflection component of a material
- * with the horizontal position of the mouse. 
+ * with the horizontal position of the mouse.
+ * Now with "planets" orbiting around the "star". Vary
+ * the orbit with the horizontal position of the mouse.
+ * The vertical position of the mouse modifies the
+ * angle the solar system is viewed from.
  */
 
 int randInt(int s, int e){
