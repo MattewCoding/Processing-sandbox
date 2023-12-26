@@ -28,7 +28,7 @@ int orbit_dist[] = {randInt(225, 250), randInt(275, 325), randInt(350, 375), ran
 float radii[] = {5.0, 7.0, 12.0, 8.0};
 
 void setup() {
-  size(1280, 720, P3D);
+  size(1280, 1280, P3D);
   
   noStroke();
   colorMode(RGB, 1);
@@ -54,12 +54,14 @@ void drawArrow(){
   endShape(CLOSE);
 }
 
-void setLight(boolean mouseDown){
+void setLight(boolean mouseDown, float rot){
   // Set the specular color of lights that follow
   if(mouseDown){
     float dirY = (mouseY / float(height) - 0.5) * 2;
     float dirX = (mouseX / float(width) - 0.5) * 2;
-    directionalLight(204, 204, 204, -dirX, -dirY, -1);
+    lightSpecular(1, 1, 1);
+    directionalLight(0.8, 0.8, 0.8, -dirX, -dirY, -1);
+    specular(0.5, 0.5, 0.5);
   } else {
     lightSpecular(1, 1, 1);
     directionalLight(0.8, 0.8, 0.8, 0, 0, -1);
@@ -69,11 +71,12 @@ void setLight(boolean mouseDown){
 }
 
 void draw() {
+  float yRotate = mouseY / float(width) * PI - PI/2 - PI/8;
   
   background(0); // Black
   // Set the specular color of lights that follow
   lightSpecular(1, 1, 1);
-  setLight(mousePressed);
+  setLight(mousePressed, yRotate);
   
   // Sun
   pushMatrix(); // Isolate translations
@@ -82,7 +85,6 @@ void draw() {
   popMatrix();
   
   float mouseXPercent = (float)mouseX/width * PI;
-  float yRotate = mouseY / float(width) * PI - PI/2 - PI/8;
   //println("mouseX: " + mouseX + " " + width);
   
   // Planets
