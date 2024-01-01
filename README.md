@@ -1,28 +1,27 @@
-# Processing Sandbox
-This project is a modified program based on some of the example programs given on Processing's website (namely, [ColorVariables](https://processing.org/examples/colorvariables.html)). We're new to Processing, so this is just us playing around with the keywords and whatnot.
+# Bac à sable de traitement
+Ce projet est un programme modifié basé sur certains des programmes d'exemple fournis sur le site web de Processing (en particulier, [ColorVariables](https://processing.org/examples/colorvariables.html)). Nous sommes nouveaux dans le domaine de Processing, alors c'est juste nous jouant avec les mots-clés et autres.
 
-## Getting Started
+## Pour commencer
 
-### Prerequisites
-Make sure you have Processing installed on your machine. You can download it from Processing.org.
+### Prérequis
+Assurez-vous d'avoir Processing installé sur votre machine. Vous pouvez le télécharger depuis Processing.org.
 
 ### Installation
-Clone or download this repository to your local machine.
+Clonez ou téléchargez ce dépôt sur votre machine locale.
 ```bash
 git clone https://github.com/your-username/processing-sandbox.git
 ```
+Ouvrez le projet dans Processing en double-cliquant sur le fichier .pde ou en naviguant vers "Fichier > Ouvrir" dans l'IDE de Processing.
 
-Open the project in Processing by double-clicking the .pde file or navigating to "File > Open" within the Processing IDE.
+## Exécution du programme
 
-## Running the Program
+Une fois que vous avez ouvert le projet dans Processing, cliquez simplement sur le bouton "Exécuter" (une icône de lecture) dans le coin supérieur gauche de l'IDE de Processing. Cela compilera et exécutera le programme, lançant une fenêtre affichant la sortie visuelle.
 
-Once you have the project open in Processing, simply click the "Run" button (a play icon) in the top-left corner of the Processing IDE. This will compile and execute the program, launching a window displaying the visual output.
-
-<!-- ## Project Overview
+<!-- ## Aperçu du projet
 *** TODO
 
-## Acknowledgements
+## Remerciements
 
 -->
-## License
-This project is licensed under the MIT License - see `LICENSE.txt` for details.
+## Licence
+Ce projet est sous licence GPL 3.0 - consultez `LICENSE.txt` pour plus de détails.
