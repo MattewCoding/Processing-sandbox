@@ -1,4 +1,4 @@
-# Bac à sable de traitement
+# Processing Sandbox
 Ce projet est un programme modifié basé sur certains des programmes d'exemple fournis sur le site web de Processing (en particulier, [ColorVariables](https://processing.org/examples/colorvariables.html)). Nous sommes nouveaux dans le domaine de Processing, alors c'est juste nous jouant avec les mots-clés et autres.
 
 ## Pour commencer
